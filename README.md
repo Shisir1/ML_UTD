@@ -79,13 +79,13 @@ Scikit-Learn Components Used:
 
 Install required packages:
 
-pip install numpy pandas matplotlib scikit-learn ucimlrepo
+`pip install numpy pandas matplotlib scikit-learn ucimlrepo`
 
 ---
 
 # How to Run Part 1
 
-python gradient_descent_part1.py
+`python gradient_descent_part1.py`
 
 Output:
 
@@ -104,7 +104,7 @@ gradient_descent_tuning_log.csv
 
 # How to Run Part 2
 
-python gradient_descent_part1.py
+`python gradient_descent_part1.py`
 
 Output:
 
@@ -126,7 +126,6 @@ sgd_regressor_tuning_log.csv
 # Project Structure
 
 Assignment1/
-
 │
 ├── gradient_descent_part1.py
 ├── gradient_descent_part2.py
