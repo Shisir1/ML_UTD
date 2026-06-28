@@ -134,7 +134,7 @@ Assignment1/
 ├── gradient_descent_tuning_log.csv
 ├── sgd_regressor_tuning_log.csv
 ├── plots/
-└── Report.pdf
+└── report.docs
 ```
 ---
 
