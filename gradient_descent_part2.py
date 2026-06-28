@@ -47,6 +47,11 @@ class DataProcessor:
 
         for col in categorical_cols:
             df[col] = pd.factorize(df[col])[0]
+            # df = pd.get_dummies(
+            #     df,
+            #     columns=["origin"],
+            #     drop_first=True
+            #     )
 
         X = df.drop(columns=['mpg'])
 
@@ -148,9 +153,9 @@ X_train, X_test, y_train, y_test = train_test_split(
 # HYPERPARAMETER TUNING
 ########################################################
 
-eta_values = [0.0001, 0.001, 0.01, 0.05]
+eta_values = [0.0001, 0.001, 0.01, 0.05, 0.1, 0.5, 1.0]
 
-iteration_values = [1000, 3000, 5000]
+iteration_values = [1000, 3000, 5000, 10000, 20000]
 
 alpha_values = [0.0001, 0.001]
 
