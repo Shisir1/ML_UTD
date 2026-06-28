@@ -128,8 +128,8 @@ sgd_regressor_tuning_log.csv
 Assignment1/
 
 │
-├── Part1_LinearRegressionGD.py
-├── Part2_SGDRegressor.py
+├── gradient_descent_part1.py
+├── gradient_descent_part2.py
 ├── README.md
 ├── gradient_descent_tuning_log.csv
 ├── sgd_regressor_tuning_log.csv
