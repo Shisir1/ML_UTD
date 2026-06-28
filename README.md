@@ -125,6 +125,7 @@ sgd_regressor_tuning_log.csv
 
 # Project Structure
 
+```
 Assignment1/
 │
 ├── gradient_descent_part1.py
@@ -134,7 +135,7 @@ Assignment1/
 ├── sgd_regressor_tuning_log.csv
 ├── plots/
 └── Report.pdf
-
+```
 ---
 
 # Notes
