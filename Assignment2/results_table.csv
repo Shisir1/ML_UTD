@@ -1,0 +1,13 @@
+hidden_layer_sizes,activation,learning_rate_init,train_accuracy,test_accuracy,train_mse,test_mse,epochs_run,label
+"(10,)",relu,0.01,0.9912,0.9825,0.0088,0.0175,200,"hidden_layer_sizes=(10,), activation=relu, learning_rate_init=0.01"
+"(10,)",relu,0.1,1.0,0.9737,0.0,0.0263,191,"hidden_layer_sizes=(10,), activation=relu, learning_rate_init=0.1"
+"(10,)",tanh,0.01,0.989,0.9737,0.011,0.0263,200,"hidden_layer_sizes=(10,), activation=tanh, learning_rate_init=0.01"
+"(10,)",tanh,0.1,0.9978,0.9649,0.0022,0.0351,200,"hidden_layer_sizes=(10,), activation=tanh, learning_rate_init=0.1"
+"(10,)",logistic,0.01,0.9758,0.9825,0.0242,0.0175,200,"hidden_layer_sizes=(10,), activation=logistic, learning_rate_init=0.01"
+"(10,)",logistic,0.1,0.9912,0.9737,0.0088,0.0263,200,"hidden_layer_sizes=(10,), activation=logistic, learning_rate_init=0.1"
+"(20, 10)",relu,0.01,0.9912,0.9649,0.0088,0.0351,200,"hidden_layer_sizes=(20, 10), activation=relu, learning_rate_init=0.01"
+"(20, 10)",relu,0.1,1.0,0.9649,0.0,0.0351,101,"hidden_layer_sizes=(20, 10), activation=relu, learning_rate_init=0.1"
+"(20, 10)",tanh,0.01,0.9934,0.9649,0.0066,0.0351,200,"hidden_layer_sizes=(20, 10), activation=tanh, learning_rate_init=0.01"
+"(20, 10)",tanh,0.1,1.0,0.9737,0.0,0.0263,137,"hidden_layer_sizes=(20, 10), activation=tanh, learning_rate_init=0.1"
+"(20, 10)",logistic,0.01,0.9758,0.9825,0.0242,0.0175,200,"hidden_layer_sizes=(20, 10), activation=logistic, learning_rate_init=0.01"
+"(20, 10)",logistic,0.1,0.9912,0.9825,0.0088,0.0175,200,"hidden_layer_sizes=(20, 10), activation=logistic, learning_rate_init=0.1"
