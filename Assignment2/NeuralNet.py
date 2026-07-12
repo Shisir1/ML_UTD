@@ -14,8 +14,7 @@ This script:
   5. Outputs a summary results table (train/test accuracy, train/test MSE)
   6. Prints a short written summary of findings
 
-No local/absolute paths are hardcoded; the dataset loads from sklearn's
-bundled copy of the public UCI dataset.
+No local/absolute paths are hardcoded; the dataset loads from public UCI dataset.
 """
 
 import itertools
@@ -55,8 +54,7 @@ class NeuralNet:
     def load_data(self):
         """
         Loads the Breast Cancer Wisconsin (Diagnostic) dataset directly from
-        the UCI Machine Learning Repository via pd.read_csv (no bundled
-        library copy, no local file path).
+        the UCI Machine Learning Repository via pd.read_csv.
 
         The raw UCI file has no header row. Per the dataset's documented
         schema (see UCI dataset description page), columns are:
@@ -197,10 +195,6 @@ class NeuralNet:
 
 
 def main():
-    # NOTE: no local file path needed -- dataset loads via sklearn's
-    # bundled UCI copy. If your assignment requires a literal file path
-    # argument, point PATH below to a URL or public S3 location instead
-    # of a local machine path.
     nn = NeuralNet(random_state=42)
     df = nn.load_data()
     nn.preprocess(df)
