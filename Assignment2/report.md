@@ -24,7 +24,7 @@ numeric features, binary label (malignant/benign).
 ## Which activation function performed best, and why?
 
 Across this grid, **ReLU and logistic (sigmoid) tied for the best test
-accuracy (0.9737)**, each achieving it under different configurations,
+accuracy (0.9825)**, each achieving it under different configurations,
 while **tanh never reached the top test accuracy in any configuration**
 despite frequently reaching the highest *training* accuracy (up to 0.9978).
 
@@ -44,7 +44,7 @@ suggesting the extra capacity wasn't needed for this dataset's relatively
 simple decision boundary and instead accelerated memorization.
 
 Logistic (sigmoid) was notably more stable at the *lower* learning rate
-(0.01) across both architectures, consistently hitting 0.9737 test accuracy
+(0.01) across both architectures, consistently hitting 0.9825 test accuracy
 — sigmoid's saturating gradients near output extremes likely acted as a
 mild implicit regularizer against overshooting at low learning rates,
 whereas at lr=0.1 its performance dropped (0.9474), consistent with
