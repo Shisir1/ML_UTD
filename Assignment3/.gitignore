@@ -1,2 +1,5 @@
 #Remove Python cache files
 __pycache__/*
+
+#Remove /results folder
+results/*
